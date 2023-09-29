@@ -6,6 +6,6 @@ def bubbleSort(arr):
                 temp=arr[j]
                 arr[j]=arr[j+1]
                 arr[j+1]=temp
-arr=[100,85,45,9,250,-8,6]
+arr=[85,45,100,-9,5,2,10.250]
 bubbleSort(arr)
 print(arr)
